@@ -1,3 +1,9 @@
 If you use virtualenv, the origin requirement.txt is deprecated.
 Theano will not work properly.
 Uninstall Theano and numpy and reinstall it with the lastest version
+
+cd into project folder:
+lunch env:
+  source venv/bin/activate
+exit env:
+  deactivate
